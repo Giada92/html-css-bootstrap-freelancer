@@ -12,7 +12,20 @@
 #jumbotron {
     height: 350px;
 }
+
+#about {
+    height: 300px;
+}
+
+#contact-me {
+    height: 200px;
+}
 /* /debug */
+
+/* common */
+body {
+    text-align: center;
+}
 
 /* Header */
 header {
@@ -28,3 +41,8 @@ header {
     background-color: #1abc9c;
 }
 
+/* Main - About */
+#about {
+    background-color: #1abc9c;
+    color: white;
+}
