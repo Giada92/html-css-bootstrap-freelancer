@@ -5,10 +5,6 @@
     border: 1px solid black;
 }
 
-#about {
-    height: 300px;
-}
-
 #contact_me {
     height: 200px;
 }
@@ -23,6 +19,10 @@
 /* /debug */
 
 /* common */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding-top: 80px;
 }
@@ -34,9 +34,22 @@ h3 {
     text-transform: uppercase;
 }
 
+p {
+    font-size: 20px;
+}
+
 .line.blue {
     border-color: #2c3e50;
     color: #2c3e50;
+}
+
+.fa-star.blue {
+    color: #2c3e50;
+}
+
+.wrapper_60 {
+    width: 60%;
+    margin: 0 auto;
 }
 
 /* Header - Nav */
@@ -97,19 +110,37 @@ nav {
 
 /* Main - Portfolio */
 #portfolio {
-    padding-top: 10px;
     margin-bottom: 50px;
+    text-align: center;
+    color: #2c3e50;
 }
 
-[class*="col-"] > img {
-    margin: 5px 0 20px 0;
+.porfolio_item {
+    margin-bottom: 30px;
 }
 
 /* Main - About */
 #about {
+    padding: 30px 0;
+    text-align: center;
     background-color: #1abc9c;
     color: white;
 }
+
+.wrapper_60 [class*="col-"] {
+    margin-bottom: 15px;
+}
+
+.ms_btn {
+    background-color: #1abc9c;
+    border: 1px solid white;
+    transition: all 0.5s;
+}
+.ms_btn:hover {
+    color: #2c3e50;
+    background-color: white;
+}
+
 
 /* Footer */
 #footer_info {
@@ -133,6 +164,14 @@ nav {
 
 @media screen and (min-width: 768px) {
 
+    h4 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 36px;
+    }
+
     .ms_navbar .nav>li>a:focus, 
     .ms_navbar .nav>li>a:hover {
         border-radius: 5%;
@@ -140,10 +179,7 @@ nav {
         background-color: #1abc9c; 
     }
 
-    h4 {
-        font-size: 24px;
-    }
-
+    
     .line {
         margin: 0 20px 10px 20px;
     }
