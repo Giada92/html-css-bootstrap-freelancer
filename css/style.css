@@ -1,13 +1,9 @@
 /* debug */
-[class*="col-"] {
+/* [class*="col-"] {
     min-height: 80px;
     background-color: coral;
     border: 1px solid black;
-}
-
-#contact_me {
-    height: 200px;
-}
+} */
 
 #footer_info {
     height: 300px;
@@ -139,6 +135,36 @@ nav {
 .ms_btn:hover {
     color: #2c3e50;
     background-color: white;
+}
+
+/* Main - Contact me */
+#contact_me {
+    padding: 30px 0;
+    color: #2c3e50;
+}
+
+.ms_form .form-group {
+    margin-bottom: 10px;
+}
+
+.ms_form .form-control {
+    font-size: 20px;
+    padding: 6px 0;
+    box-shadow: none;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #2c3e50;
+}
+
+.ms_send {
+    margin-top: 10px;
+    color: white;
+}
+.ms_btn.ms_send:hover {
+    background-color: #159a80;
+    border: 1px solid #159a80;
 }
 
 
